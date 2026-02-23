@@ -1,0 +1,18 @@
+import random
+a1 = input('Primeiro aluno:')
+a2 = input('Segundo aluno:')
+a3 = input('Terceiro aluno:')
+lista = [a1, a2, a3]
+random.shuffle(lista)
+print('A ordem de apresentação é ')
+print(lista)
+
+#
+from random import shuffle
+a1 = input('Primeiro aluno:')
+a2 = input('Segundo aluno:')
+a3 = input('Terceiro aluno:')
+lista = [a1, a2, a3]
+shuffle(lista)
+print('A ordem de apresentação é ')
+print(lista)
