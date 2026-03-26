@@ -1,0 +1,9 @@
+valor = float(input('Digite o valor da compra:'))
+print (valor)
+parcela = int(input('Quantas de parcelas?'))
+print (parcela)
+parcela_valor = valor/parcela
+print (parcela_valor)
+acrescimo = parcela_valor*0.05
+soma = parcela_valor + acrescimo
+print (acrescimo,soma)

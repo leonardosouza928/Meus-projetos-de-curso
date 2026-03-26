@@ -1,0 +1,12 @@
+
+
+# Usando o import FROM, "Retirar todas as referencias a math"
+
+from math import radians,sin,cos,tan
+a = float (input('Digete um angulo:'))
+sen = sin(radians(a))
+print (f'O agulo de {a} tem o SENO de {sen:.2f}')
+c = cos(radians(a))
+print (f'O angulo de {a} tem o COSSENO de {c:.2f}')
+t = tan(radians(a))
+print (f'O angulo de {a} tem a TANGENTE de {t:.2f}')

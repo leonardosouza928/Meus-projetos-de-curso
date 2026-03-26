@@ -1,0 +1,6 @@
+compra = float(input('Digite o valor da compra:R$'))
+print ('R$',compra)
+des = int(input('Digite o valor do desconto:'))
+print (f'Desconto de',des,'%')
+desconto = compra - (compra * des / 100)
+print (f'Com o desconto de',des,'%','\nO cliente paga',desconto)
